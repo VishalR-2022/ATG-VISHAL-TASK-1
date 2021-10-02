@@ -1,0 +1,25 @@
+.cards{
+    width: 60%;
+}
+.final{    display: flex;
+    /* margin: 1.5rem 0 2.5rem 7.5rem; */
+    max-width: 962px;
+    justify-content: space-between;
+    margin: auto auto auto 13%;
+    padding: 0 2rem;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.horizon{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 0.1rem solid #B8B8B8;
+    margin-bottom: 1rem;
+}
+.desc{
+    opacity: 0.5;
+}

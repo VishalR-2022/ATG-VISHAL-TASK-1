@@ -1,38 +1,111 @@
 .App {
-  text-align: center;
+background-color: White;  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.xyz{
+  display: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.show{
+  display: none;
+}
+.arrow{
+  display: none;
+}
+.content-btn-mob{
+  display: none;
+}
+@media screen and (max-width:1060px) {
+ 
+  .show{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  .location{
+    display: none;
+  }
+  .hide{
+    display: none;
+  }
+  .nav_search{
+    display: none;
+  }
+  .cards{
+    width: 90%;
+  }
+  .header-heading{
+    left:19%;
+  }
+  .header-para{
+    left: 19%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (max-width:750px){
+ 
+.content-btn{
+  display: none;
+}
+.content-btn-mob{
+display: block;
+}
+}
+@media screen and (max-width:450px){
+ 
+  .show{
+    justify-content: space-between;
+ margin: 1rem;
+ margin-bottom: 0;
+  }
+  .arrow{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .header{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url("./Assets/Header/mobile-back.svg");
+    height: 13.5rem;
+  }
+  .cards{
+    width: 100%;
+  }
+ .final{
+   margin: 0;
+   padding: 0;
+ }
+ .Navbar{
+   display: none;
+ }
+ .heading{
+   font-size: 1.1rem;
+ }
+ .content-para{
+   font-size: 0.9rem;
+ }
+  .header-heading{
+    top: 2.57rem;
+    left:6%;
+    width:21rem;
+    font-size: 2rem;
+  }
+  .header-para{
+    
+    top: 1.87rem;
+    left: 6%;
+    width: 19rem;
+  }
+  .people-view{
+    display: none;
+  }
+  .people-Share{
+    display: none;
+  }
+  
+.people-Share-mob{
+  display: block;
+}
+.xyz{
+  margin: 0.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: end;
+  
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

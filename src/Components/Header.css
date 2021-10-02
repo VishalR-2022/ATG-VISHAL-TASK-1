@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.header{
+    height: 27.5rem;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url("../Assets/Header/Rectangle 2.png");
+}
+.header-heading{
+    margin-top: 0;
+    width: 23rem;
+    position: relative;
+    top: 17.87rem;
+    left: 15%;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 2.2rem;
+line-height: 2.98rem;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.header-para{
+    position: relative;
+    top: 17.87rem;
+    left: 15%;
+width: 23rem;    
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.125rem;
+line-height: 1.438rem;
+
+color: #FFFFFF;
+}
